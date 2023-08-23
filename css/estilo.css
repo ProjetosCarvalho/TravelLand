@@ -1,0 +1,147 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: 	#ffefd2;
+    align-items: center;
+}
+
+.footer{
+    background-color: 	#ffefd2;    
+}
+
+.logo {
+    width: 25%;
+    margin-left: 20px;
+}
+
+.nav-link{
+    list-style-type: none;
+    color: #175873;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nav-icon {
+    margin: 10px;
+    color: #175873;
+}
+
+.nav-link:hover, .nav-icon:hover{
+    color: dimgrey;
+}
+
+.icon{
+    margin-left: 380px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+  
+  .card {
+    width: 30%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+
+   .title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 3.2%;
+   }
+
+   .container {
+    width: 80%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+   }
+
+   h2 {
+    font-family: cursive;
+    color: #175873;
+   }
+
+   .card-blog .card-body {
+    position: relative;
+}
+  
+.card-blog .card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+  
+.card-blog .card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 0 15px 5px;
+    overflow: hidden;
+    background-color: #4C7031;
+    border-radius: 4px;
+}
+  
+.card-blog .card-category .category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1px;
+    margin-bottom: 0;
+}
+  
+.card-blog .card-title {
+    font-size: 1.3rem;
+    margin-top: .6rem;
+}
+  
+.card-blog .card-description {
+    color: #4e4e4e;
+}
+  
+.card-blog .post-author {
+    display: inline-block;
+}
+  
+.card-blog .post-date {
+    color: #4e4e4e;
+    display: inline-block;
+    float: right;
+}
+
+.sect-pt4 {
+    padding-top: 4rem;
+    margin-bottom: 7%;
+}
+
+.botao-carrinho {
+    background-color: #175873;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.botao-carrinho:hover {
+    background-color: #4e4e4e;
+}
