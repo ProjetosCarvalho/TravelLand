@@ -7,6 +7,10 @@ html{
     align-items: center;
 }
 
+.fundo{
+    background-color:rgba(250, 235, 215, 0.308);
+}
+
 .footer{
     background-color: 	#ffefd2;    
 }
@@ -62,6 +66,7 @@ p {
 h2 {
     font-family: cursive;
     color: #175873;
+    font-size: 1em;
 }
 
 .card-blog .card-body {
@@ -100,7 +105,16 @@ h2 {
     font-size: 1.3rem;
     margin-top: .6rem;
 }
+
+.card-blog {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
   
+ .box-shadow-a,
+  .button:hover {
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+
 .card-blog .card-description {
     color: #4e4e4e;
 }
@@ -113,6 +127,10 @@ h2 {
     color: #4e4e4e;
     display: inline-block;
     float: right;
+}
+
+.card-recente {
+    margin-left: 1%;
 }
 
 .sect-pt4 {
@@ -167,3 +185,37 @@ h2 {
     overflow: hidden;
 }
   
+.card-blog {    
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow-a,
+.button:hover {
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+  
+  
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+}
+
+.destaque{
+    text-align: center;
+    font-family: 'Galada', cursive;
+    font-size: 2.2em;
+    text-shadow: 2px 2px red;
+    color: #fff;
+}
+
+.bandeira{
+    width: 9%;
+    margin-left: 45.8%;
+}
