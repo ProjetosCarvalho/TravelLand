@@ -39,7 +39,11 @@ html{
 }
 
 .icon{
-    margin-left: 380px;
+    margin-left: 325px;
+}
+
+.traducao {
+    margin-left: 35px;
 }
   
 img {
@@ -63,10 +67,12 @@ p {
     margin-top: 5%;
 }
 
-h2 {
-    font-family: cursive;
-    color: #175873;
-    font-size: 1em;
+.titulo {
+    font-family: 'Staatliches', cursive;
+    color: #24292b;
+    font-size: 2em;
+    margin-bottom: 2%;
+    margin-top: 10%;
 }
 
 .card-blog .card-body {
@@ -103,7 +109,6 @@ h2 {
   
 .card-blog .card-title {
     font-size: 1.3rem;
-    margin-top: .6rem;
 }
 
 .card-blog {
@@ -134,7 +139,6 @@ h2 {
 }
 
 .sect-pt4 {
-    padding-top: 4rem;
     margin-bottom: 7%;
 }
 
@@ -155,7 +159,6 @@ h2 {
 }
 
 .row{
-    margin-top: 3%;
     margin-bottom: 6%;
 }
 
@@ -199,6 +202,7 @@ h2 {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    margin-bottom: 6%;
 }
   
   
@@ -209,13 +213,109 @@ h2 {
 
 .destaque{
     text-align: center;
-    font-family: 'Galada', cursive;
+    font-family: 'Paprika', cursive;
     font-size: 2.2em;
     text-shadow: 2px 2px red;
     color: #fff;
+    margin-top: 2%;
 }
 
 .bandeira{
     width: 9%;
-    margin-left: 45.8%;
+    margin-left: 45.5%;
+}
+
+.botao-destaque {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 45.5%;
+    margin-top: 5.4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.botao-destaque:hover {
+    background-color: #e49292;
+}
+
+.container-parcerias {
+    background-color: #175873;
+    height: 230px;
+    overflow-x: scroll; 
+}
+  
+.image-row {
+    display: flex; 
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 10%;
+}
+  
+.image-row img {
+    width: 13%; 
+    height: auto; 
+    margin-right: 8%; 
+    margin-top: 4%;
+}
+  
+
+.about-mf .box-shadow-full {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+  
+.about-mf .about-img {
+    margin-bottom: 2rem;
+}
+  
+.about-mf .about-img img {
+    margin-left: 10px;
+}
+  
+.skill-mf span {
+    color: #4e4e4e;
+}
+
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.about-info{
+    margin-left: 23px;
+    margin-top: 60px;
+}
+
+.about-mf .about-img {
+    margin-bottom: 2rem;
+}
+  
+.about-mf .about-img img {
+    margin-left: 10px;
+}
+
+.title-s {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+
+.title-box-2 {
+    margin-bottom: 3rem;
+}
+      
+.title-left {
+    font-size: 2rem;
+    position: relative;
+}
+  
+.bnt-sobre{
+    margin-top: 14%;
 }
