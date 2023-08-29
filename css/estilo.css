@@ -344,3 +344,64 @@ p {
     display: none;
 }
   
+.destino-img{
+    width: 70%;
+    margin-left: 8%;
+    height: 200px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.dest{
+    margin-bottom: 0;
+}
+
+.paralax-mf {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-paralax {
+    padding: 4rem 0 0 0;
+}
+  
+.contact-mf {
+    margin-top: 4rem;
+}
+  
+.icon_contact{
+    width: 26px;
+    margin-bottom: 6px;
+}
+
+.sect-mt4 {
+    margin-top: 4rem;
+}
+
+.overlay-mf {
+    background-color: #175873;
+}
+
+.validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+  
+.list-ico {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+  
+.list-ico {
+    line-height: 2;
+}
+  
+.list-ico span {
+    color: #175873;
+}
