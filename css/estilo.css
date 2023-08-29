@@ -363,7 +363,7 @@ p {
 }
 
 .footer-paralax {
-    padding: 4rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
   
 .contact-mf {
@@ -376,7 +376,7 @@ p {
 }
 
 .sect-mt4 {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .overlay-mf {
@@ -386,7 +386,7 @@ p {
 .validation {
     color: red;
     display: none;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
     font-weight: 400;
     font-size: 13px;
 }
